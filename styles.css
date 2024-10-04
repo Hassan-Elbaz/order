@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.hassan-img{
+    width: 102%;
+    border-radius: 5px;
+}
+.illustration {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9em;
+    margin: 20px 0;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.plan-name {
+    font-weight: bold;
+}
+
+.plan-price {
+    color: hsl(245deg 43.48% 2.52% / 57%);}
+
+.change-link {
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.cancel-link {
+    color: hsl(224, 23%, 55%);
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
